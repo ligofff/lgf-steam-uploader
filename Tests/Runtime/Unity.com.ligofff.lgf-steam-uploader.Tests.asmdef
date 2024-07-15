@@ -1,0 +1,11 @@
+{
+  "name": "Unity.com.ligofff.lgf-steam-uploader.Tests",
+  "references": [
+    "Unity.com.ligofff.lgf-steam-uploader"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": []
+}
