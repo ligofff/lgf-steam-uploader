@@ -21,7 +21,7 @@ namespace Editor
 
         public string GetBuildVersion()
         {
-            return "0.0.0" + "_" + Guid.NewGuid().ToString().Substring(0, 5);
+            return Application.version + "_" + Guid.NewGuid().ToString().Substring(0, 5);
         }
     }
 }
