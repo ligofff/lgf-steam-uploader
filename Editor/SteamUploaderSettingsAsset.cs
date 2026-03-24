@@ -15,7 +15,15 @@ namespace Editor
 
         public List<string> scriptNames;
 
-        public string steamGameId = "1234567";
+        public bool runPreflightBeforeUpload = true;
+        public bool blockUploadOnPreflightIssues = true;
+        public bool confirmOnPreflightWarnings = true;
+        public bool clearContentDirectoryBeforeCopy = true;
+        public bool openOutputFolderAfterUpload = false;
+        public bool warnOnVeryLargeFiles = true;
+        public int largeFileWarningThresholdMb = 1024;
+        public bool warnOnTimestampLikeFileNames = true;
+        public int maxWarningSamplesPerRule = 10;
 
         public bool openUrlAfterBuild = true;
 
